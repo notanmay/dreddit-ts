@@ -1,7 +1,7 @@
 import mongoose, { ObjectId } from "mongoose";
 import { PostInterface } from "./postModel";
 
-interface CommentInterface extends PostInterface{
+export interface CommentInterface extends PostInterface{
     postID : ObjectId,
     commentID : object,
 }

@@ -12,7 +12,6 @@ const PostSchema = new mongoose.Schema<PostInterface>({
     author : {
         type : mongoose.Types.ObjectId,
         ref : "User"
-        
     },
     textContent : {
         type : String

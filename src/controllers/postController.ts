@@ -4,7 +4,7 @@ import NotFoundError from "../errors/notFoundError";
 import { RequestWithUserID } from "../models/userModel";
 import { Post } from "../models/postModel";
 import { Comment } from "../models/commentModel";
-
+import { PostInterface } from "../models/postModel";
 
 export const createPost = async function (req: RequestWithUserID, res: Response, next: NextFunction) {
     try {
